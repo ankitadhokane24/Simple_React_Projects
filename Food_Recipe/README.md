@@ -1,8 +1,5 @@
-# React + Vite
+Food-Recipe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It is an simple react project which offers various food dishes from various region  .
+It offers basic functionality to view dishes by filtering  or sorting them,also search the dishes by their region .
+In this simply we used how fetch API data and how to used it in project.
