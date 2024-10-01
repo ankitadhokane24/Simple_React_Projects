@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.my-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: rgba(255, 165, 0, 0.5);
+    color: black;
+}
+
+.meal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 1300px;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.meal-card {
+    text-align: center;
+    color: #f0f0f0; /* Lighter text color for better contrast */
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px; 
+    transition: transform 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+}
+
+.meal-card:hover {
+    transform: translateY(-5px); /* Slight upward movement on hover */
+    box-shadow: 0 6px 20px rgba(255, 165, 0, 0.5); /* Use an orange glow on hover */
+}
+
+.meal-image {
+    width: 220px;
+    border-radius: 10px;
+    border: 2px solid #ffa500; /* Orange border for better visibility */
+}
+
+h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; /* Ensure the meal name is bright */
+}
+
+input{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: black;
+    
+}
+
+input:focus{
+    color: black;
+    background-color: white;
+}
+
